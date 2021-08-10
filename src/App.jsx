@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import './App.css';
+import './index.css'
 
 const App = () => {
 
@@ -27,8 +27,11 @@ const App = () => {
       <div>Loading...</div> 
       : 
       <>
-      <div id="Male-div" className="section">
-      <h1 className="header">Male</h1>
+      <div>
+        <h1 id="title">Hi There!</h1>
+      </div>
+      <div id="male-div" className="section">
+      <h2 className="header">Male</h2>
       {data.map((owner) => {
           return (
           (owner.gender === 'Male') ? <div>
@@ -36,7 +39,7 @@ const App = () => {
             return (
               (sub.type === 'Cat') ? 
               <div>
-               <p>{sub.name}</p>
+               <p className="name">{sub.name}</p>
               </div> 
               : 
               <>
@@ -52,8 +55,8 @@ const App = () => {
       })}
       </div>
 
-      <div id="Female-div" className="section">
-      <h1 className="header">Female</h1>
+      <div id="female-div" className="section">
+      <h2 className="header">Female</h2>
       {data.map((owner) => {
           return (
           (owner.gender === 'Female') ? <div>
@@ -61,7 +64,7 @@ const App = () => {
             return (
               (sub.type === 'Cat') ? 
               <div>
-               <p>{sub.name}</p>
+               <p className="name">{sub.name}</p>
               </div> 
               : 
               <>
@@ -76,6 +79,9 @@ const App = () => {
         </>
         )
       })}
+      </div>
+      <div>
+        <h4>Looking forward to chatting soon!</h4>
       </div>
       </>
       }

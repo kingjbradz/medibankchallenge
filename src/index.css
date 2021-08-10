@@ -5,9 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(0.25turn, #61b7ed, #e56fed);
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.section {
+  margin: 10vh;
+  border: 1px black solid;
+}
+
+.name:hover {
+  background-color: rgb(215, 186, 186);
+  transition: .7s;
 }
