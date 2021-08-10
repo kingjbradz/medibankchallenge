@@ -6,7 +6,7 @@ User stories are lined out *below*.
 
 ## User stories:
 
-1) As an end-user, I want to see the values stored inside that URL on my application.
+1) As an end-user, I want to see the values stored inside that URL (as referenced on their Github) on my application.
 
 2) As an end-user, I want there to be two lists separated by gender identities.
 
