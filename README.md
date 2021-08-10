@@ -10,7 +10,7 @@ User stories are lined out *below*.
 
 2) As an end-user, I want there to be two lists separated by gender identities.
 
-3) As an end-user, I want to see the names of each cats, with their names split into lists of male and female owners.
+3) As an end-user, I want to see the names of each 'cat', with their names split into lists of male and female owners.
 
 4) As an end-user, I want this application to be able to be rendered on a web browser.
 
@@ -20,7 +20,7 @@ User stories are lined out *below*.
 
     Garfield
     Tom
-    Sam
+    Max
     Jim
 
 
